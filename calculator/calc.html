@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arithmetic calculator</title>
+    </head>
+    <body style= "background-color: black;  margin: 100px;">
+        <div style="border: 2px solid whitesmoke ;">
+        <center>
+            
+            <h1 style="font-family: san-serif; color: whitesmoke ;">Arithmetic calculator<h1>
+            <input style="color: black;" id="num1" type="number;" placeholder="Enter the first number">
+            <input style="color: black ;" id="num2" type="number" placeholder="Enter the second number">
+            <h3 style="color: whitesmoke ;">Please select the operator to get Result</h3>
+            <button style="margin:10px;" onclick="calculator('add')">+</button>
+            <button style="margin:10px;" onclick="calculator('sub')">-</button>
+            <button style="margin:10px;" onclick="calculator('mul')">x</button>
+            <button style="margin:10px;" onclick="calculator('div')">÷</button>
+            <br>
+            <h3 style="color: whitesmoke ;">Result</h3>
+            <input id="result" placeholder="your result appears here" style= "margin-bottom: 20px; color: black;">
+            <br>
+            <button onclick="clr()" style="margin-bottom: 20px;" > clear </button>
+
+     </div>
+
+
+    
+        </center>
+        <script src="func.js"></script>
+    </body>            
+</html>
