@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ARRAY</title>
+        <style>
+            h2{font-family: 'Times New Roman', Times, serif; font-style: italic;}
+            label{color: blue;}
+        </style>
+    </head>
+    <body>
+        <lable style="font-size: 22px; font-style: normal;" ><b>ARRAY METHODS [0,1,2..]</b></lable>
+        <!----------------array to string-->
+       <h2>Array to String</h2>
+       <input type="text" id="arystng" placeholder="changes value to string">
+       <button id="btn" onclick="arystng()">String</button>
+       <!----------------Join-->
+       <h2>Join</h2>
+       <input type="text" id="join" placeholder="enter the value to join">
+       <button id="btn" onclick="join()">Join</button>
+       <!----------------Push-->
+       <h2>Push</h2>
+       <label>Const values are:["Mobile","Ipad","Laptop",]</label>
+       <br><br>
+       <input type="text" id="push" placeholder="enter the value to push">
+       <button id="btn" onclick="push()">Push</button>
+       <!----------------Unshift-->
+       <h2>Unshift</h2>
+       <label>Const values are:["Mobile","Ipad","Laptop",]</label>
+       <br><br>
+       <input type="text" id="ushift" placeholder="enter the value to unshift">
+       <button id="btn" onclick="ushift()">Unshift</button>
+       <!----------------Add or change-->
+       <h2>Add or change</h2>
+       <label>Const values are:["Mobile","Ipad","Laptop",]</label>
+       <br><br>
+       <input style="width:200px;" type="text" id="adcnge" placeholder="enter the value to add or change" >
+       <input style="width:225px;" type="text" id="no" placeholder="enter the num value to add or change">
+       <button id="btn" onclick="adcnge()">Add or Change</button>
+       <!----------------Pop-->
+       <h2>Pop</h2>
+       <input type="text" id="pp" placeholder="enter the values">
+       <button id="btn" onclick="pp('add')">press</button>
+       <button id="btn" onclick="pp('delete')">POP value</button>
+       <!----------------shift-->
+       <h2>Shift</h2>
+       <input type="text" id="sht" placeholder="enter the values">
+       <button id="btn" onclick="sht('add')">press</button>
+       <button id="btn" onclick="sht('delete')">Shift value</button>
+       <!-----------------find length-->
+       <h2>Array Length</h2>
+       <input style="width:180px;" type="text" id="flenth" placeholder="enter the value to find length">
+       <button id="btn" onclick="flenth()">Find</button>
+       <!----------------concat-->
+       <h2>ConCat</h2>
+       <input type="text" id="con" placeholder="enter the first array value">
+       <input style="width:180px;" type="text" id="cat" placeholder="enter the second array value">
+       <button id="btn" onclick="concat()">ConCat</button>
+       <!----------------splice-->
+       <h2>Splice</h2>
+       <label>Const values are:["Banana", "Orange", "Apple", "Mango"]</label>
+       <br><br>
+       <input style="width:200px;" type="text" id="fsplice" placeholder="enter the first parameter to ADD">
+       <input style="width:250px;" type="text" id="ssplice" placeholder="enter the second parameter to REMOVE"><br><br>
+       <input style="width:180px;" type="text" id="asplice" placeholder="enter the value to be ADDED">
+       <button id="btn" onclick="splice()">Splice</button>
+       <!----------------slice-->
+       <h2>Slice</h2>
+       <label>Const values are:["Banana", "Orange", "Apple", "Mango"]</label>
+       <br><br>
+       <input style="width:200px;" type="text" id="fslice" placeholder="enter the first array value to slice">
+       <input style="width:215px;" type="text" id="sslice" placeholder="enter the second array value to slice">
+       <button id="btn" onclick="slice()">Slice</button>
+       <!-----------------Sortig an array-->
+       <h2>Sorting an Array</h2>
+       <input style="width:310px;" type="text" id="sarry" placeholder="enter the random array values to sort alphabetically ">
+       <button id="btn" onclick="sarry()">Sort</button>
+       <!-----------------Reversing an array-->
+       <h2>Reverseing an Array</h2>
+       <input style="width:230px;" type="text" id="rarry" placeholder="enter the array values to reverse array">
+       <button id="btn" onclick="rarry()">Reverse</button>
+       <!------------------Index of array-->
+       <h2>Index of Array</h2>
+       <label>Const values are:["Mobile","Ipad","Laptop","charger"]</label>
+       <br><br>
+       <input type="text" id="inarry" placeholder="enter the Const value">
+       <button id="btn" onclick="inarry()">Index</button>
+       <!-------------------Include of array-->
+       <h2>Include of Array</h2>
+       <label>Const values are:["Banana", "Orange", "Apple", "Mango"]</label>
+       <br><br>
+       <input type="text" id="incarry" placeholder="enter the Const value">
+       <button id="btn" onclick="incarry()">Include</button>
+       <!-------------------Is array-->
+       <h2>Is Array</h2>
+       <input type="text" id="arr" placeholder="enter the Array values">
+       <button id="btn" onclick="arr()">True or false</button>
+       <input type="text" id="stng" placeholder="enter the String values">
+       <button id="btn" onclick="stng()">True or false</button>
+       
+       <script src="array js.js"></script>
+    </body>
+</html>
