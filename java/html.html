@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <title>JAVA SCRIPT</title>
+    <body>
+        
+        <h1>visit website ON CLICK</h1>
+        <p> Click the listed buttons to open <b>websites</b> in new tab</p>
+        <button onclick="amztab()" id="amz">Visit Amazon</button>
+        <button onclick="flktab()" id="flk">Visit Flipkart</button>
+        <button onclick="myttab()" id="myt">Visit Myntra</button>
+        <br>
+        <h1>ON CHANGE</h1>
+        <select id="cities" name="city" onchange="selectCity()">
+            <option value="slct" selected>select city</option>
+            <option value="Chennai">chennai</option>
+            <option value="Trichy">trichy</option>
+            <option value="Madurai">madurai</option>
+            </select>
+            <p id="slcCty"></p>
+        <br>
+        <h1>ON MOUSEOVER & ON MOUSEOUT</h1>
+        <button id="onmseov" onmouseover="onmouse()" >Change to Red</button>
+        <button id="onmseot" onmouseout="outmouse()">Change to Green</button>
+        <br>
+        <h1>ON KEYPRESS</h1>
+        <input id="txtBox" type="text" style="color: white;"  onkeypress="keyPress()">
+
+        
+    </body>
+
+    <script src="java.js"></script>
+
+ 
+</html>
