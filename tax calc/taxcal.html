@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tax calculator</title>
+    </head>
+    <body style="margin: 100px; font-style: italic; font-size:20px; margin: 50px;">
+        <center>
+            <h1 style="font-size:40pxpx;">Income Tax Calculator</h1>
+<!-----name----->
+        Name:<input id="name"  type="text" placeholder= "enter your name"/><br><br>
+<!-----age----->
+        Age:<input  id="age" type="number" placeholder="enter your age"/><br><br>
+<!-----gender----->
+        Gender <input type="radio" name="gender" value="male" id="male"> Male
+               <input type="radio" name="gender" value="female" id="female"> Female
+               <br><br>
+<!-----income----->
+        Income from salery:<input id="salery" type="number" placeholder="enter your annual income"/><br><br>
+<!-----output----->
+        Tax amount to pay:<input id="output" placeholder="your tax amount"/><br><br>
+<!-----final output----->
+Tax amount to pay after exemptions:<input id="finaloutput" placeholder="your tax amount"/><br><br>
+<!-----submit----->
+<button onclick="calculate()" type="submit"> calculate </button>
+<!-----reset----->
+<button type="reset" onclick="reset()">Reset</button><br><br>
+
+    </center>
+        <script src="tax.js"></script>
+    </body>
+</html>
+
