@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-image: url("shopping-keyboard-enter-button.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-family:sans-serif;
+    margin: 25px 50px 75px;
+}
+
+form{
+    background-color:transparent;
+    border: 2px solid black;
+    padding:5px 10px 5px 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 350px;
+    margin-left: 350px;
+}
+   
+h3 {
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+}
+label{  
+    color:black;  
+    font-size: 17px;  
+}  
+#Username{  
+    width: 250px;  
+    height: 25px;  
+    border-top:0;
+    border-right:0;
+    border-bottom:2px solid black;
+    border-left:0;  
+    padding-left: 1px;  
+}  
+#Password{  
+    width: 250px;  
+    height: 25px;  
+    border-top:0;
+    border-right:0;
+    border-bottom:2px solid black;
+    border-left:0;  
+    padding-left: 1px;    
+      
+}  
+ 

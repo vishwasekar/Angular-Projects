@@ -1,0 +1,123 @@
+header{
+    background-color:#2473f0;
+    padding: 10px;
+}
+body{
+    font-family: sans-serif;
+}
+button{
+    border-radius: 5px;
+    border-style: hidden;
+    
+}
+#cart{
+    margin-left: 40px;
+}
+#user{
+    margin-left: 30px;
+}
+a{
+    color: white;
+}
+#logo{
+    width: 120px;
+    height: auto;
+}
+#search{
+    background-color: #ededec;
+    margin-left: 200px;
+    margin-top: -50px;
+    margin-bottom: 70px;
+    padding-bottom: 20px;
+}
+.search{
+    height: 30px;
+    width: 700px;
+}
+#find{
+    padding: 6px;
+    border-radius: 5px;
+    border-color: #2473f0;
+    color: #ededec;
+    background-color: #2473f0;
+}
+#menu{
+    margin-left: 10px;
+
+}
+#homebanner{
+    margin-left: 90Px;
+    margin-top: -20px;
+}
+#truck{
+    margin-top: 10px;
+    margin-left: 200px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#return{
+    margin-top: 10px;
+    margin-left: 320px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#pay{
+    margin-top: 10px;
+    margin-left: 400px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#free{
+    margin-left: 110px;
+    font-size: 15px;
+}
+#easy{
+    margin-left: 160px;
+    font-size: 15px;
+}
+#money{
+    margin-left: 300px;
+    font-size: 15px;
+}
+#pod{
+    margin-left: 110px;
+    margin-right: 800px;
+    margin-bottom: 5px;   
+}
+#esyrtn{
+    margin-left: 500px;
+    margin-top: -110px;
+    margin-right: 410px;
+}
+#pamon{
+    margin-left: 900px;
+    margin-top: -80px;
+    margin-right: 20px;
+
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.col-4{
+    flex-basis: 20%;
+    padding: 5px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+.col-4 img{
+    width: 100%;
+
+}
+
+

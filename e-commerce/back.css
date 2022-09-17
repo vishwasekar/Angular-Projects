@@ -1,0 +1,29 @@
+body{
+    background-image: radial-gradient(circle, #586277, #6b8091, #819eaa, #9cbcc2, #bcdbd9);
+}
+
+
+h1{
+    padding-left: 15px;
+    font-style: oblique;
+}
+form{
+
+    border: 2px solid gray;
+    margin-left: 620px;
+    margin-right: 100px;
+    margin-top: -600px;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+
+}
+label{
+    padding-left:10px;
+}
+#img{
+    height: 600px;
+    width: 600px;
+}
+#down{
+    margin-left: 750px;
+
+}
