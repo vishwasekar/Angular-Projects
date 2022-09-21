@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Finding Grade</title>
+        <style>
+            form{
+                border: 3px solid rgb(225, 96, 96);
+                border-radius: 15px;
+                margin: 100px 600px 30px 100px;
+            }
+            label{
+                font-size: medium;
+                font-family:Arial, Helvetica, sans-serif;
+                font-style: initial;
+            }
+            h3{
+                font-size: 20px;
+                font-family:'Times New Roman', Times, serif;
+                font-style: italic;
+            }
+            input{
+                border: 2px solid rgb(72, 64, 64);
+                border-radius: 3px;
+            }
+           
+           
+        </style>
+    </head>
+    <body><center>
+            <form>
+                <div style="margin-left: px;">
+                    <h3>Find Student Grade</h3>
+                    <label>Student Roll :</label>
+                    <input type="text" id="roll" class="details" style="margin-left: 15px;"><br><br>
+                    <label style="margin-left: -15px;">Student Name :</label>
+                    <input type="text" id="name" class="details" style="margin-left: 15px;"><br><br>
+                    <label style="margin-left: -6px;">Student Class :</label>
+                    <input type="text" id="class" class="details" style="margin-left: 16px;"><br><br>
+                    <label style="margin-left: -20px;">Student Section :</label>
+                    <input type="text" id="section" class="details" style="margin-left: 15px;"><br><br>
+                    <label style="margin-left: 15px;">Total Mark :</label>
+                    <input type="number" id="mark" class="details" style="margin-left: 15px;"><br><br>
+                    <button style="margin-bottom: 20px;" id="solve" type="button" onclick="percentage()">Find Grade</button>
+                    <button id="rst" type="reset">Reset</button>
+                </div>
+            </form>
+            <div style="margin-left: 450px; margin-top: -300px;">
+                    <h2>Your Result:</h2>
+                    <p >Student Roll No:  <a id="droll" style="font-weight: bold;"></a></p>
+                    <p >Student Name:     <a id="dname" style="font-weight: bold;"></a></p>
+                    <p >Student Class:    <a id="dclass" style="font-weight: bold;"></a></p>
+                    <p >Student Section:  <a id="dsec" style="font-weight: bold;"></a></p>
+                    <p >Total Percentage: <a id="dmark" style="font-weight: bold;"></a></p>
+                    <p >Your Grade is:    <a id="dgarde" style="font-weight: bold;"></a></p>
+               </div>
+            
+            
+            </center>
+            <script src="fgrade.js"></script> 
+    </body>
+</html>
